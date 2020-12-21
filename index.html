@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<h1>CONTACT US</h1>
+
+
+<center>
+	<form>
+		<table border="0">
+			<tr>
+				<td>
+					<input type="text" placeholder ="Name"  id="name">
+				</td>
+				<td>
+					<input type="email" placeholder="Email Address" id="email">
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<input type="text" placeholder ="Subject" id="subject">
+				</td>
+				<td>
+					<input type="text" placeholder ="Company"id="company">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<textarea placeholder="Message" id="message"></textarea>
+				</td>
+			</tr>			
+		</table>
+	</form>
+	<button id="send" >SEND</button>
+    <br>
+    <table border="0" class="details" id="customer">
+        <tr class="tHead">
+            <th>SN</th>
+            <th>Name</th>
+            <th>Email</th>
+			<th>Subject</th>
+			<th>Company</th>
+            <th>Message</th>
+        </tr> 
+               
+    </table>
+    <script src="js/main.js"></script>
+</body>
+</html>
